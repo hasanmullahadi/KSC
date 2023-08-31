@@ -1,5 +1,5 @@
 #include <dht.h>
-
+// to install liblary, look up dhtlib
 #define DHT11_PIN 7    // Define which pin the DHT11 is connected to. You can change this as needed.
 
 
