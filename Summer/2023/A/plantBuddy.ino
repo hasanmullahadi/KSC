@@ -2,7 +2,7 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-
+//To install liblary, look up SSD1306
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 
@@ -16,14 +16,14 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // ultrasonic sensor
 #include <Arduino.h>
 #include <HC_SR04.h>
-
+//To install liblary, look up HC_SR04
 #define ECHO 2  //support interrupts
 #define TRIG 9
 HC_SR04<ECHO> sensor(TRIG);
 
 // DHT sensor
 #include <dht.h>
-
+//To install liblary, look up dhtlib
 dht DHT;
 
 #define DHT11_PIN 7
