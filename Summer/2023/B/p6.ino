@@ -2,7 +2,7 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-
+// to install liblary, look up SSD1306
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 
@@ -14,7 +14,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 
 #include <dht.h>
-
+// to install liblary, look up dhtlib
 #define DHT11_PIN 7  // Define which pin the DHT11 is connected to. You can change this as needed.
 dht DHT;
 
